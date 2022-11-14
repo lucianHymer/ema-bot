@@ -1,6 +1,6 @@
 {
-  "name": "ema-bot",
-  "version": "0.0.1",
+  "name": "exchange",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,15 +12,11 @@
   },
   "author": "Lucian Hymer",
   "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.7.2"
+  },
   "bugs": {
     "url": "https://github.com/lucianHymer/ema-bot/issues"
   },
-  "homepage": "https://github.com/lucianHymer/ema-bot#readme",
-  "workspaces": [
-    "packages/exchange",
-    "packages/price-fetcher",
-    "packages/trading-wallet",
-    "packages/strategizer",
-    "packages/core"
-  ]
+  "homepage": "https://github.com/lucianHymer/ema-bot#readme"
 }

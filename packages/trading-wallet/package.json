@@ -1,6 +1,6 @@
 {
-  "name": "ema-bot",
-  "version": "0.0.1",
+  "name": "trading-wallet",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,12 +15,5 @@
   "bugs": {
     "url": "https://github.com/lucianHymer/ema-bot/issues"
   },
-  "homepage": "https://github.com/lucianHymer/ema-bot#readme",
-  "workspaces": [
-    "packages/exchange",
-    "packages/price-fetcher",
-    "packages/trading-wallet",
-    "packages/strategizer",
-    "packages/core"
-  ]
+  "homepage": "https://github.com/lucianHymer/ema-bot#readme"
 }
