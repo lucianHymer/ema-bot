@@ -43,7 +43,8 @@
     return new Promise(resolve => setTimeout(resolve, ms))
   }
 
-  const bot = new EMABot()
+  let price;
+  const bot = new EMABot(1296.95, 1259.08, buy, sell)
 
   const intervalMS = 1000 * 60 * 5
 
