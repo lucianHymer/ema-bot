@@ -1,0 +1,4 @@
+{
+  "files": [],
+  "references": [{ "path": "packages/trading-wallet" }, { "path": "packages/strategizer" }]
+}
